@@ -1,4 +1,4 @@
-// 导入颜色选择器组件
+// 导入面包屑组件
 import breadCrumNav from './breadCrumNav'
 // 存储组件列表
 const components = [

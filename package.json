@@ -13,7 +13,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "package": "npm version patch && git push origin master && npm publish"
+    "package": "npm version patch && npm publish"
   },
   "dependencies": {
     "core-js": "^3.6.5",

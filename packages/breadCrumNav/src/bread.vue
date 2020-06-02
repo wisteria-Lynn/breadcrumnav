@@ -71,8 +71,7 @@
           } else {
             console.error('字段`this.$route.meta.breadID`没有设置')
           }
-        },
-        immediate:true
+        }
       }
     },
     methods: {
