@@ -1,6 +1,6 @@
 {
   "name": "breadcrumnav",
-  "version": "0.1.8-0",
+  "version": "0.1.8",
   "description": "一个面包屑导航组件",
   "main": "lib/breadcrumnav.umd.min.js",
   "files": [
@@ -13,7 +13,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "package": "npm version prepatch && git commit -m 'feat:package' && git push origin master && npm publish"
+    "package": "npm version patch && git commit -m 'feat:package' && git push origin master && npm publish"
   },
   "dependencies": {
     "core-js": "^3.6.5",
