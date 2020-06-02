@@ -7,7 +7,7 @@ module.exports = {
   pages:{
     // 入口配置
     index:{
-      entry:isProduct ? 'src/breadCrumNav/index.js' :'src/main.js',// 入口
+      entry:'src/main.js',// 入口
       template:'public/index.html',// 模板
       filename:'index.html',
       title:'vue3',

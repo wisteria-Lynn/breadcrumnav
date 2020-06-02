@@ -1,17 +1,19 @@
 {
   "name": "breadcrumnav",
-  "version": "0.1.2",
-  "main": "src/breadCrumNav/index.js",
+  "version": "0.1.7",
+  "description": "一个面包屑导航组件",
+  "main": "lib/breadcrumnav.umd.min.js",
   "files": [
-    "dist",
-    "src/lib"
+    "lib",
+    "packages"
   ],
   "private": false,
   "scripts": {
-    "lib": "vue-cli-service build --target lib --name breadcrumnav --dest lib src/breadCrumNav/index.js",
+    "lib": "vue-cli-service build --target lib --name breadcrumnav --dest lib packages/index.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "package": "npm version prepatch && git commit -m 'feat:package' && git push origin master && npm publish"
   },
   "dependencies": {
     "core-js": "^3.6.5",

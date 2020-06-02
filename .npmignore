@@ -2,7 +2,7 @@
 node_modules
 /dist
 /public
-/src
+/src/*
 .gitignore
 babel.config.js
 package-lock.json

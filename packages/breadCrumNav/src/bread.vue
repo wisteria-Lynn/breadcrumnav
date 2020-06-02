@@ -7,7 +7,7 @@
 
 <script>
   export default {
-    name: "bread",
+    name: "breadNav",
     props:{
       // 默认菜单
       breadNavList: {
