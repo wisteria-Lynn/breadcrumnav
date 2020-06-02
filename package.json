@@ -1,6 +1,6 @@
 {
   "name": "breadcrumnav",
-  "version": "0.1.7",
+  "version": "0.1.8-0",
   "description": "一个面包屑导航组件",
   "main": "lib/breadcrumnav.umd.min.js",
   "files": [
